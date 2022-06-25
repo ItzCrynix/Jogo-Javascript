@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joguinho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Arquivos/style.css">
+    <script src="./Arquivos/script.js"></script>
+</head>
+<body onload="Iniciar()" > 
+    <h1>O Plantador de Árvores</h1>
+    <div class="boxPrincipal">
+        <div class="Objetivo">
+
+            <h2 class="topico">Movimentação</h2>
+            <p class="explicacao">
+                W: Para cima <br>
+                S: Para Baixo <br>
+                A: Para a Direita <br>
+                D: Para a Esquerda
+            </p>
+
+            <hr>
+
+            <h2 class="topico">Ações</h2>
+            <p class="explicacao">
+                ESPAÇO: Planta uma Árvore
+            </p>
+
+            <hr>
+
+            <h2 class="topico">Objetivo</h2>
+            <p class="explicacao">
+                Plantar o máximo de árvores que você conseguir antes que o ogro destrua elas. <br><br>
+                Divirta-se! :)
+            </p>
+
+        </div>
+
+        <canvas id="meuCanvas" onclick="MexerMonstro()" width="512" height="480">
+            Seu browser não suporta o elemento CANVAS, atualize-se!!!
+        </canvas>
+
+        <div class="Sobre">
+
+            <div class="paradireita">
+                <h2 class="topico">Funções</h2>
+                <a href="#_Reiniciado"><div id="reiniciar" onclick="ReIniciar()">Reiniciar</div></a>
+                <a href="#_Reiniciado"><div id="reiniciar" onclick="ReIniciarTotal()">Reiniciar Total</div></a>
+            </div>
+            
+            <hr>
+
+            <div class="paradireita">
+                <h2 class="topico">Quem Produziu</h2>
+                <p class="explicacao">
+                    Cainan Loyola Schiavolin <br>
+                    @cainanloyola
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

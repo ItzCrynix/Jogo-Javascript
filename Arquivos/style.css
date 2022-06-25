@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("grama.png");
+    font-family: 'Pangolin', cursive;
+}
+h1 {
+    text-align: center;
+    font: 30pt;
+    color: rgb(116, 75, 75);
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 3px pink;
+}
+canvas {
+    border: 5px solid black;
+    flex: 1;
+}
+hr {
+    background-color: black;
+    border: 1px solid black;
+}
+a {
+    text-decoration: none;
+}
+
+.Objetivo {
+    flex: 1;
+    text-align: center;
+}
+.Objetivo .topico {
+    text-align: center;
+    color: #c90000;
+    text-transform: uppercase;
+}
+.Objetivo p {
+    margin: auto;
+    width: 80%;
+}
+.explicacao {
+    text-align: justify;
+    font-size: 15pt;
+}
+
+.Sobre {
+    flex: 1;
+}
+.Sobre .topico {
+    color: #c90000;
+    text-transform: uppercase;
+}
+.Sobre #reiniciar {
+    width: fit-content;
+    height: 5%;
+    padding: 10px;
+    line-height: 150%;
+    background-color: darkseagreen;
+    border: 2px ridge #9ecf9e;
+    border-radius: 5px;
+    color: darkslategray;
+    display: inline-block;
+}
+.Sobre .paradireita {
+    padding-left: 2em;
+}
+
+.boxPrincipal {
+    display: flex;
+    height: fit-content;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.205);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+}
